@@ -1,0 +1,13 @@
+name: ShadowspectDashboard
+title: ShadowspectDashboard
+username:
+account: lagadashboard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2305993
+bundleId: 3152499
+url: https://lagadashboard.shinyapps.io/ShadowspectDashboard/
+when: 1589559099.97955
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DashboardMIT.R|DashBoardShinyCompleteBack.R|ShinyManuelTFG.R

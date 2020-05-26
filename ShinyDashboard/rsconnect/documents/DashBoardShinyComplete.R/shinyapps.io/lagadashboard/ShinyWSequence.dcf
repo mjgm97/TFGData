@@ -1,0 +1,12 @@
+name: ShinyWSequence
+title: ShinyWSequence
+username:
+account: lagadashboard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2211131
+bundleId: 3120328
+url: https://lagadashboard.shinyapps.io/ShinyWSequence/
+when: 1588940460.95303
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,95 @@
+,group_id,task_id,master_solution,common_Errors
+0,cb71040b5bd1341a34afc24961536ebd,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}","{'deleted_shapes': {'cone': 25.0}, 'moved_shapes': {'cone': 37.5}, 'rotated_shapes': {'cone': 25.0}}"
+1,cb71040b5bd1341a34afc24961536ebd,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'rotated_shapes': {'ramp': 50.0}, 'moved_shapes': {'ramp': 50.0}}"
+2,cb71040b5bd1341a34afc24961536ebd,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'moved_shapes': {'pyramid': 24.32}, 'rotated_shapes': {'pyramid': 59.46}}"
+3,cb71040b5bd1341a34afc24961536ebd,Object Limits,{'master0': 'cube'},"{'scaled_shapes': {'cube': 54.84}, 'moved_shapes': {'cube': 22.58}}"
+4,cb71040b5bd1341a34afc24961536ebd,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}","{'moved_shapes': {'pyramid': 42.42}, 'rotated_shapes': {'pyramid': 33.33}, 'scaled_shapes': {'pyramid': 18.18}}"
+5,cb71040b5bd1341a34afc24961536ebd,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}","{'moved_shapes': {'sphere': 37.5, 'cube': 28.12}, 'scaled_shapes': {'cube': 15.62}}"
+6,cb71040b5bd1341a34afc24961536ebd,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+7,cb71040b5bd1341a34afc24961536ebd,Pi Henge,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube'}",{}
+8,cb71040b5bd1341a34afc24961536ebd,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}",{}
+9,cb71040b5bd1341a34afc24961536ebd,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}","{'moved_shapes': {'cylinder': 66.67, 'ramp': 33.33}}"
+10,cb71040b5bd1341a34afc24961536ebd,Angled Silhouette,"{'master0': 'cube', 'master1': 'cube', 'master2': 'pyramid', 'master3': 'pyramid'}","{'created_shapes': {'pyramid': 33.33}, 'deleted_shapes': {'cone': 33.33}, 'rotated_shapes': {'pyramid': 33.33}}"
+11,cb71040b5bd1341a34afc24961536ebd,More Than Meets Your Eye,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube', 'master5': 'cube', 'master6': 'cube', 'master7': 'cube', 'master8': 'cube', 'master9': 'cube', 'master10': 'ramp', 'master11': 'ramp'}",{}
+12,cb71040b5bd1341a34afc24961536ebd,Not Bird,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'pyramid'}",{'moved_shapes': {'cylinder': 22.22}}
+13,c6262795f034865c9e9203305638ee79,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'created_shapes': {'sphere': 33.33}, 'deleted_shapes': {'sphere': 33.33}, 'rotated_shapes': {'ramp': 33.33}}"
+14,c6262795f034865c9e9203305638ee79,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}","{'moved_shapes': {'cylinder': 20.51}, 'created_shapes': {'cylinder': 15.38}, 'rotated_shapes': {'cylinder': 15.38}}"
+15,c6262795f034865c9e9203305638ee79,Object Limits,{'master0': 'cube'},"{'scaled_shapes': {'cube': 64.62}, 'moved_shapes': {'cube': 21.54}}"
+16,c6262795f034865c9e9203305638ee79,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}",{'moved_shapes': {'cone': 100.0}}
+17,c6262795f034865c9e9203305638ee79,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}","{'rotated_shapes': {'pyramid': 15.38}, 'scaled_shapes': {'pyramid': 46.15}, 'moved_shapes': {'pyramid': 38.46}}"
+18,c6262795f034865c9e9203305638ee79,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}","{'moved_shapes': {'sphere': 39.29, 'cube': 25.0}}"
+19,c6262795f034865c9e9203305638ee79,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}","{'moved_shapes': {'ramp': 27.27, 'cylinder': 22.73}}"
+20,c6262795f034865c9e9203305638ee79,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'scaled_shapes': {'pyramid': 38.46}, 'rotated_shapes': {'pyramid': 53.85}}"
+21,c6262795f034865c9e9203305638ee79,Zzz,"{'master0': 'cylinder', 'master1': 'cylinder', 'master2': 'cone', 'master3': 'cone'}","{'moved_shapes': {'cone': 50.0, 'cylinder': 33.33}, 'rotated_shapes': {'cone': 16.67}}"
+22,c6262795f034865c9e9203305638ee79,Angled Silhouette,"{'master0': 'cube', 'master1': 'cube', 'master2': 'pyramid', 'master3': 'pyramid'}",{}
+23,c6262795f034865c9e9203305638ee79,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+24,7a01ab37bd2729626dcaf96166390315,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'rotated_shapes': {'ramp': 33.33}, 'moved_shapes': {'ramp': 60.0}}"
+25,7a01ab37bd2729626dcaf96166390315,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}",{'moved_shapes': {'cube': 16.12}}
+26,7a01ab37bd2729626dcaf96166390315,Object Limits,{'master0': 'cube'},"{'scaled_shapes': {'cube': 64.19}, 'moved_shapes': {'cube': 20.27}}"
+27,7a01ab37bd2729626dcaf96166390315,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}","{'moved_shapes': {'cone': 68.18}, 'rotated_shapes': {'cone': 22.73}}"
+28,7a01ab37bd2729626dcaf96166390315,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}","{'moved_shapes': {'pyramid': 53.55}, 'rotated_shapes': {'pyramid': 19.67}, 'scaled_shapes': {'pyramid': 21.31}}"
+29,7a01ab37bd2729626dcaf96166390315,Zzz,"{'master0': 'cylinder', 'master1': 'cylinder', 'master2': 'cone', 'master3': 'cone'}","{'moved_shapes': {'cone': 58.33, 'cylinder': 41.67}}"
+30,7a01ab37bd2729626dcaf96166390315,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}","{'moved_shapes': {'cube': 28.85, 'sphere': 32.69}, 'scaled_shapes': {'cube': 23.08}}"
+31,7a01ab37bd2729626dcaf96166390315,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}","{'moved_shapes': {'ramp': 34.78, 'cylinder': 34.78}}"
+32,7a01ab37bd2729626dcaf96166390315,Not Bird,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+33,7a01ab37bd2729626dcaf96166390315,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+34,7a01ab37bd2729626dcaf96166390315,Bull Market,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cone', 'master3': 'cone', 'master4': 'cone'}",{'moved_shapes': {'cone': 62.96}}
+35,7a01ab37bd2729626dcaf96166390315,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'rotated_shapes': {'pyramid': 45.45}, 'scaled_shapes': {'pyramid': 27.27}, 'moved_shapes': {'pyramid': 19.7}}"
+36,7a01ab37bd2729626dcaf96166390315,Angled Silhouette,"{'master0': 'cube', 'master1': 'cube', 'master2': 'pyramid', 'master3': 'pyramid'}","{'created_shapes': {'cube': 22.22, 'pyramid': 22.22}, 'moved_shapes': {'pyramid': 16.67}}"
+37,7a01ab37bd2729626dcaf96166390315,More Than Meets Your Eye,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube', 'master5': 'cube', 'master6': 'cube', 'master7': 'cube', 'master8': 'cube', 'master9': 'cube', 'master10': 'ramp', 'master11': 'ramp'}","{'created_shapes': {'cube': 20.0}, 'moved_shapes': {'cube': 20.0}}"
+38,7a01ab37bd2729626dcaf96166390315,Orange Dance,"{'master0': 'cylinder', 'master1': 'ramp', 'master2': 'cylinder', 'master3': 'ramp', 'master4': 'cylinder', 'master5': 'cylinder'}",{'moved_shapes': {'cylinder': 100.0}}
+39,7a01ab37bd2729626dcaf96166390315,Bird Fez,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cylinder'}",{}
+40,7a01ab37bd2729626dcaf96166390315,Pi Henge,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube'}","{'moved_shapes': {'cube': 50.0}, 'scaled_shapes': {'cube': 50.0}}"
+41,95cd1f045a0329cf5595ae734ae7ae43,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'moved_shapes': {'ramp': 33.33}, 'scaled_shapes': {'ramp': 33.33}, 'rotated_shapes': {'ramp': 33.33}}"
+42,95cd1f045a0329cf5595ae734ae7ae43,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}",{'deleted_shapes': {'sphere': 16.67}}
+43,95cd1f045a0329cf5595ae734ae7ae43,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'moved_shapes': {'pyramid': 17.65}, 'scaled_shapes': {'pyramid': 35.29}, 'rotated_shapes': {'pyramid': 23.53}}"
+44,95cd1f045a0329cf5595ae734ae7ae43,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}",{}
+45,95cd1f045a0329cf5595ae734ae7ae43,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}","{'created_shapes': {'ramp': 50.0}, 'deleted_shapes': {'cube': 50.0}}"
+46,95cd1f045a0329cf5595ae734ae7ae43,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}",{'moved_shapes': {'pyramid': 100.0}}
+47,95cd1f045a0329cf5595ae734ae7ae43,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}",{}
+48,95cd1f045a0329cf5595ae734ae7ae43,Bull Market,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cone', 'master3': 'cone', 'master4': 'cone'}","{'moved_shapes': {'cone': 20.0, 'sphere': 60.0}, 'deleted_shapes': {'sphere': 20.0}}"
+49,4fe25833f555e9903d2bb6bbeec3fbfb,Pi Henge,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube'}",{}
+50,4fe25833f555e9903d2bb6bbeec3fbfb,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}",{}
+51,4fe25833f555e9903d2bb6bbeec3fbfb,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}",{}
+52,4fe25833f555e9903d2bb6bbeec3fbfb,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}","{'moved_shapes': {'ramp': 20.0}, 'scaled_shapes': {'ramp': 20.0}, 'created_shapes': {'cylinder': 20.0}, 'deleted_shapes': {'sphere': 20.0}, 'rotated_shapes': {'cylinder': 20.0}}"
+53,e6af7d42084352a39449e6d0a09b18cd,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'moved_shapes': {'ramp': 43.06}, 'rotated_shapes': {'ramp': 27.78}}"
+54,e6af7d42084352a39449e6d0a09b18cd,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'moved_shapes': {'pyramid': 34.5}, 'rotated_shapes': {'pyramid': 40.35}}"
+55,e6af7d42084352a39449e6d0a09b18cd,Object Limits,{'master0': 'cube'},"{'moved_shapes': {'cube': 24.75}, 'scaled_shapes': {'cube': 58.08}}"
+56,e6af7d42084352a39449e6d0a09b18cd,Angled Silhouette,"{'master0': 'cube', 'master1': 'cube', 'master2': 'pyramid', 'master3': 'pyramid'}","{'created_shapes': {'cube': 17.65, 'pyramid': 23.53}, 'rotated_shapes': {'pyramid': 17.65}}"
+57,e6af7d42084352a39449e6d0a09b18cd,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}","{'moved_shapes': {'cone': 61.54}, 'rotated_shapes': {'cone': 23.08}}"
+58,e6af7d42084352a39449e6d0a09b18cd,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}","{'moved_shapes': {'pyramid': 53.21}, 'scaled_shapes': {'pyramid': 25.32}, 'rotated_shapes': {'pyramid': 15.06}}"
+59,e6af7d42084352a39449e6d0a09b18cd,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}","{'moved_shapes': {'cube': 27.43, 'sphere': 31.43}, 'scaled_shapes': {'cube': 25.71}}"
+60,e6af7d42084352a39449e6d0a09b18cd,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}","{'moved_shapes': {'ramp': 20.75, 'cylinder': 27.36}}"
+61,e6af7d42084352a39449e6d0a09b18cd,Zzz,"{'master0': 'cylinder', 'master1': 'cylinder', 'master2': 'cone', 'master3': 'cone'}","{'moved_shapes': {'cone': 34.88, 'cylinder': 24.42}, 'rotated_shapes': {'cone': 16.28}}"
+62,e6af7d42084352a39449e6d0a09b18cd,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}",{}
+63,e6af7d42084352a39449e6d0a09b18cd,Not Bird,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+64,e6af7d42084352a39449e6d0a09b18cd,Bull Market,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cone', 'master3': 'cone', 'master4': 'cone'}",{'moved_shapes': {'cone': 38.46}}
+65,e6af7d42084352a39449e6d0a09b18cd,Bird Fez,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cylinder'}",{}
+66,e6af7d42084352a39449e6d0a09b18cd,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}","{'created_shapes': {'cylinder': 17.14}, 'rotated_shapes': {'cylinder': 17.14}}"
+67,e6af7d42084352a39449e6d0a09b18cd,Bear Market,"{'master0': 'sphere', 'master1': 'sphere', 'master2': 'sphere', 'master3': 'sphere', 'master4': 'sphere', 'master5': 'sphere', 'master6': 'sphere', 'master7': 'sphere', 'master8': 'sphere'}","{'created_shapes': {'sphere': 40.0}, 'moved_shapes': {'sphere': 60.0}}"
+68,e6af7d42084352a39449e6d0a09b18cd,Orange Dance,"{'master0': 'cylinder', 'master1': 'ramp', 'master2': 'cylinder', 'master3': 'ramp', 'master4': 'cylinder', 'master5': 'cylinder'}","{'moved_shapes': {'ramp': 30.77, 'cylinder': 26.92}}"
+69,e6af7d42084352a39449e6d0a09b18cd,Pi Henge,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube'}","{'created_shapes': {'cube': 25.0}, 'deleted_shapes': {'cube': 25.0}, 'moved_shapes': {'cube': 25.0}, 'scaled_shapes': {'cube': 25.0}}"
+70,e6af7d42084352a39449e6d0a09b18cd,More Than Meets Your Eye,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube', 'master5': 'cube', 'master6': 'cube', 'master7': 'cube', 'master8': 'cube', 'master9': 'cube', 'master10': 'ramp', 'master11': 'ramp'}",{}
+71,8cbfa61cb2b025b16b04a8e470422960,Bird Fez,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cylinder'}",{}
+72,8cbfa61cb2b025b16b04a8e470422960,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'moved_shapes': {'ramp': 60.0}, 'rotated_shapes': {'ramp': 30.0}}"
+73,8cbfa61cb2b025b16b04a8e470422960,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'moved_shapes': {'pyramid': 27.78}, 'rotated_shapes': {'pyramid': 48.15}, 'scaled_shapes': {'pyramid': 18.52}}"
+74,8cbfa61cb2b025b16b04a8e470422960,Object Limits,{'master0': 'cube'},"{'moved_shapes': {'cube': 20.69}, 'scaled_shapes': {'cube': 60.34}}"
+75,8cbfa61cb2b025b16b04a8e470422960,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}",{'moved_shapes': {'cone': 92.31}}
+76,8cbfa61cb2b025b16b04a8e470422960,Tall and Small,"{'master0': 'cube', 'master1': 'sphere'}","{'moved_shapes': {'cube': 23.44, 'sphere': 31.25}, 'scaled_shapes': {'cube': 28.12}}"
+77,8cbfa61cb2b025b16b04a8e470422960,Ramp Up and Can It,"{'master0': 'cylinder', 'master1': 'ramp'}",{'moved_shapes': {'cylinder': 23.53}}
+78,8cbfa61cb2b025b16b04a8e470422960,Zzz,"{'master0': 'cylinder', 'master1': 'cylinder', 'master2': 'cone', 'master3': 'cone'}","{'moved_shapes': {'cylinder': 39.13, 'cone': 34.78}}"
+79,8cbfa61cb2b025b16b04a8e470422960,Bull Market,"{'master0': 'sphere', 'master1': 'cone', 'master2': 'cone', 'master3': 'cone', 'master4': 'cone'}",{'moved_shapes': {'cone': 60.71}}
+80,8cbfa61cb2b025b16b04a8e470422960,Orange Dance,"{'master0': 'cylinder', 'master1': 'ramp', 'master2': 'cylinder', 'master3': 'ramp', 'master4': 'cylinder', 'master5': 'cylinder'}","{'moved_shapes': {'cylinder': 66.67, 'ramp': 33.33}}"
+81,8cbfa61cb2b025b16b04a8e470422960,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}","{'moved_shapes': {'pyramid': 48.31}, 'scaled_shapes': {'pyramid': 23.6}}"
+82,8cbfa61cb2b025b16b04a8e470422960,Not Bird,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'pyramid'}",{}
+83,8cbfa61cb2b025b16b04a8e470422960,Square Cross-Sections,"{'master0': 'ramp', 'master1': 'cylinder', 'master2': 'pyramid'}","{'created_shapes': {'cylinder': 21.05}, 'deleted_shapes': {'sphere': 15.79}, 'rotated_shapes': {'cylinder': 21.05}}"
+84,8cbfa61cb2b025b16b04a8e470422960,Angled Silhouette,"{'master0': 'cube', 'master1': 'cube', 'master2': 'pyramid', 'master3': 'pyramid'}",{}
+85,8cbfa61cb2b025b16b04a8e470422960,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}","{'created_shapes': {'cylinder': 16.92}, 'rotated_shapes': {'cylinder': 15.38}}"
+86,8cbfa61cb2b025b16b04a8e470422960,Bear Market,"{'master0': 'sphere', 'master1': 'sphere', 'master2': 'sphere', 'master3': 'sphere', 'master4': 'sphere', 'master5': 'sphere', 'master6': 'sphere', 'master7': 'sphere', 'master8': 'sphere'}","{'moved_shapes': {'sphere': 66.67}, 'scaled_shapes': {'sphere': 15.56}}"
+87,8cbfa61cb2b025b16b04a8e470422960,Pi Henge,"{'master0': 'cube', 'master1': 'cube', 'master2': 'cube', 'master3': 'cube', 'master4': 'cube'}","{'created_shapes': {'cube': 25.0}, 'deleted_shapes': {'cube': 25.0}, 'moved_shapes': {'cube': 25.0}, 'scaled_shapes': {'cube': 25.0}}"
+88,e21640b4aea9349ad77d86d6017cb061,Stranger Shapes,"{'master0': 'pyramid', 'master1': 'pyramid'}",{}
+89,e21640b4aea9349ad77d86d6017cb061,45-Degree Rotations,"{'master0': 'ramp', 'master1': 'ramp', 'master2': 'ramp', 'master3': 'ramp', 'master4': 'sphere'}","{'rotated_shapes': {'ramp': 75.0}, 'moved_shapes': {'ramp': 25.0}}"
+90,e21640b4aea9349ad77d86d6017cb061,Pyramids are Strange,"{'master0': 'pyramid', 'master1': 'pyramid', 'master2': 'pyramid', 'master3': 'pyramid'}","{'rotated_shapes': {'pyramid': 41.18}, 'scaled_shapes': {'pyramid': 21.57}, 'moved_shapes': {'pyramid': 17.65}}"
+91,e21640b4aea9349ad77d86d6017cb061,Sugar Cones,"{'master0': 'cone', 'master1': 'cone'}","{'moved_shapes': {'cone': 80.0}, 'rotated_shapes': {'cone': 20.0}}"
+92,e21640b4aea9349ad77d86d6017cb061,Boxes Obscure Spheres,"{'master0': 'sphere', 'master1': 'cylinder', 'master2': 'cylinder', 'master3': 'cube'}",{}
+93,e21640b4aea9349ad77d86d6017cb061,Object Limits,{'master0': 'cube'},"{'scaled_shapes': {'cube': 62.5}, 'moved_shapes': {'cube': 18.75}}"

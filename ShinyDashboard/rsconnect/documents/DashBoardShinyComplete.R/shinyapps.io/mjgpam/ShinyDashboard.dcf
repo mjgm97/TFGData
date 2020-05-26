@@ -1,0 +1,12 @@
+name: ShinyDashboard
+title: ShinyDashboard
+username:
+account: mjgpam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2211602
+bundleId: 3082637
+url: https://mjgpam.shinyapps.io/ShinyDashboard/
+when: 1588184789.9641
+asMultiple: FALSE
+asStatic: FALSE

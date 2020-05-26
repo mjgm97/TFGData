@@ -1,0 +1,13 @@
+name: ShinyTFG
+title: ShinyTFG
+username:
+account: lagadashboard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2297881
+bundleId: 3152144
+url: https://lagadashboard.shinyapps.io/ShinyTFG/
+when: 1589554562.90511
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DashboardMIT.R|DashBoardShinyComplete.R
