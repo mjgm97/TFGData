@@ -13,16 +13,16 @@ library(shinythemes)
 ##library(rsconnect)
 ##rsconnect::deployApp('path/to/your/app')
 
-datosFunnelPuzzle <- read.csv("pruebaBinarioV2.csv", header = TRUE)
+datosFunnelPuzzle <- read.csv("datosCSV/pruebaBinarioV2.csv", header = TRUE)
 total_puzzles <- 30
-datosFunnelUser <- read.csv("funnelOutput.csv", header = TRUE)
+datosFunnelUser <- read.csv("datosCSV/funnelOutput.csv", header = TRUE)
 datosFunnelPuzzle$level_puzzle <- factor(datosFunnelPuzzle$level_puzzle, levels = c("Basic Puzzles", "Intermediate Puzzles","Advanced Puzzles"))
 datosFunnelPuzzle<-datosFunnelPuzzle%>% filter(level_puzzle != "SAND")
 
-dfSequence <- read.csv("sequenceOutput.csv", header = TRUE)
-datosDiff <- read.csv("levelsOfDifficultyOutput.csv", header = TRUE)
-seqWithinDf <- read.csv("seqWPOutput.csv", header = TRUE)
-commonErrorsDf <- read.csv("commonOutput.csv", header = TRUE)
+dfSequence <- read.csv("datosCSV/sequenceOutput.csv", header = TRUE)
+datosDiff <- read.csv("datosCSV/levelsOfDifficultyOutput.csv", header = TRUE)
+seqWithinDf <- read.csv("datosCSV/seqWPOutput.csv", header = TRUE)
+commonErrorsDf <- read.csv("datosCSV/commonOutput.csv", header = TRUE)
 df_melted <- NULL
 currentSeq<- NULL
 
@@ -47,56 +47,56 @@ seqWithinDf$shape_type <- factor(seqWithinDf$shape_type, levels = c("-", "1", "2
 
 
 
-common_errors <- image_read("common_errors.png")
-master_sol_img <- image_read("master_sol.png")
-no_data <- image_read("nodata.png")
-sphere <- image_read("shape_sphere.png")
-cone <- image_read("shape_cone.png")
-cube <- image_read("shape_cube.png")
-ramp <- image_read("shape_prism.png")
-pyramid <- image_read("shape_pyramid.png")
-cylinder <- image_read("shape_cylinder.png")
+common_errors <- image_read("images/common_errors.png")
+master_sol_img <- image_read("images/master_sol.png")
+no_data <- image_read("images/nodata.png")
+sphere <- image_read("images/shape_sphere.png")
+cone <- image_read("images/shape_cone.png")
+cube <- image_read("images/shape_cube.png")
+ramp <- image_read("images/shape_prism.png")
+pyramid <- image_read("images/shape_pyramid.png")
+cylinder <- image_read("images/shape_cylinder.png")
 
-create_sphere <- image_read("add_sphere.png")
-create_cone <- image_read("add_cone.png")
-create_cube <- image_read("add_cube.png")
-create_cylinder <- image_read("add_cylinder.png")
-create_prism <- image_read("add_prism.png")
-create_pyramid <- image_read("add_pyramid.png")
+create_sphere <- image_read("images/add_sphere.png")
+create_cone <- image_read("images/add_cone.png")
+create_cube <- image_read("images/add_cube.png")
+create_cylinder <- image_read("images/add_cylinder.png")
+create_prism <- image_read("images/add_prism.png")
+create_pyramid <- image_read("images/add_pyramid.png")
 
-delete_sphere <- image_read("delete_sphere.png")
-delete_cone <- image_read("delete_cone.png")
-delete_cube <- image_read("delete_cube.png")
-delete_cylinder <- image_read("delete_cylinder.png")
-delete_prism <- image_read("delete_prism.png")
-delete_pyramid <- image_read("delete_pyramid.png")
+delete_sphere <- image_read("images/delete_sphere.png")
+delete_cone <- image_read("images/delete_cone.png")
+delete_cube <- image_read("images/delete_cube.png")
+delete_cylinder <- image_read("images/delete_cylinder.png")
+delete_prism <- image_read("images/delete_prism.png")
+delete_pyramid <- image_read("images/delete_pyramid.png")
 
-scale_sphere <- image_read("scale_sphere.png")
-scale_cone <- image_read("scale_cone.png")
-scale_cube <- image_read("scale_cube.png")
-scale_cylinder <- image_read("scale_cylinder.png")
-scale_prism <- image_read("scale_prism.png")
-scale_pyramid <- image_read("scale_pyramid.png")
+scale_sphere <- image_read("images/scale_sphere.png")
+scale_cone <- image_read("images/scale_cone.png")
+scale_cube <- image_read("images/scale_cube.png")
+scale_cylinder <- image_read("images/scale_cylinder.png")
+scale_prism <- image_read("images/scale_prism.png")
+scale_pyramid <- image_read("images/scale_pyramid.png")
 
-move_sphere <- image_read("move_sphere.png")
-move_cone <- image_read("move_cone.png")
-move_cube <- image_read("move_cube.png")
-move_cylinder <- image_read("move_cylinder.png")
-move_prism <- image_read("move_prism.png")
-move_pyramid <- image_read("move_pyramid.png")
+move_sphere <- image_read("images/move_sphere.png")
+move_cone <- image_read("images/move_cone.png")
+move_cube <- image_read("images/move_cube.png")
+move_cylinder <- image_read("images/move_cylinder.png")
+move_prism <- image_read("images/move_prism.png")
+move_pyramid <- image_read("images/move_pyramid.png")
 
-rotate_sphere <- image_read("rotate_sphere.png")
-rotate_cone <- image_read("rotate_cone.png")
-rotate_cube <- image_read("rotate_cube.png")
-rotate_cylinder <- image_read("rotate_cylinder.png")
-rotate_prism <- image_read("rotate_prism.png")
-rotate_pyramid <- image_read("rotate_pyramid.png")
+rotate_sphere <- image_read("images/rotate_sphere.png")
+rotate_cone <- image_read("images/rotate_cone.png")
+rotate_cube <- image_read("images/rotate_cube.png")
+rotate_cylinder <- image_read("images/rotate_cylinder.png")
+rotate_prism <- image_read("images/rotate_prism.png")
+rotate_pyramid <- image_read("images/rotate_pyramid.png")
 
-submit_correct <- image_read("submit_correct.png")
-submit_incorrect <- image_read("submit_incorrect.png")
-snapshot <- image_read("snapshot.png")
-rotate_view <- image_read("rotate_view.png")
-pizarra <- image_read("pizarra.png")
+submit_correct <- image_read("images/submit_correct.png")
+submit_incorrect <- image_read("images/submit_incorrect.png")
+snapshot <- image_read("images/snapshot.png")
+rotate_view <- image_read("images/rotate_view.png")
+pizarra <- image_read("images/pizarra.png")
 
 userSelected <- "86eafa4b05f579291048d9f8e4e715fd"
 
@@ -467,7 +467,7 @@ server <- function(session,input, output) {
       if (length(unique(currentPuzzle$type)) == 1 && unique(currentPuzzle$type) == 'start_level') {
         plot(1:3, type='n', axes = FALSE, xlab = "", ylab = "", main = currentPuzzle$task_id[1], font.main=4, cex.main=1)
         rasterImage(pizarra, 0.5, 0, 3.3, 3.5)
-        rasterImage(image_flip(no_data), 1.5, 2.9, 2.5, 2.70)
+        rasterImage(no_data, 1.5, 2.9, 2.5, 2.70)
       } else {
         
         if (exists("rasterImage")) { # can plot only in R 2.11.0 and higher
@@ -536,7 +536,7 @@ server <- function(session,input, output) {
               }
               
               #Para publicarlo hacerle el flip
-              imgAnnotated <- image_flip(imgAnnotated)
+              #imgAnnotated <- image_flip(imgAnnotated)
               rasterImage(imgAnnotated, xI, yI, (xI+offsetX), yI - offsetY)
               
               
@@ -569,7 +569,7 @@ server <- function(session,input, output) {
         
         contador = 0
         rasterImage(pizarra, 0.5, 0, 3.3, 3.5)
-        rasterImage(image_flip(master_sol_img), 1.5, 2.9, 2.5, 2.70)
+        rasterImage(master_sol_img, 1.5, 2.9, 2.5, 2.70)
         currentGroupPuzzle$master_solution <- gsub("'", "\"", currentGroupPuzzle$master_solution)
         # parse the json
         mas_sol <- fromJSON(currentGroupPuzzle$master_solution)
@@ -584,12 +584,12 @@ server <- function(session,input, output) {
           }
           shape <- mas_sol[[i]]
           imgsh <- eval(as.symbol(shape))
-          imgsh <- image_flip(imgsh)
+          #imgsh <- image_flip(imgsh)
           rasterImage(imgsh, xI, yI, (xI+offsetX), yI - offsetY, interpolate=FALSE)
           xI = xI + offsetX
           contador = contador + 1
         }
-        rasterImage(image_flip(common_errors), 1.5, yI - (offsetY*1.5), 2.5, (yI - (offsetY*3.1)))
+        rasterImage(common_errors, 1.5, yI - (offsetY*1.5), 2.5, (yI - (offsetY*3.1)))
         
         currentGroupPuzzle$common_Errors <- gsub("'", "\"", currentGroupPuzzle$common_Errors)
         # parse the json
@@ -625,7 +625,7 @@ server <- function(session,input, output) {
             comp_name <- paste(mov, sh, sep = "_")
             img_used <- eval(as.symbol(comp_name))
             img_used <- image_annotate(img_used, paste(commonE[[i]][[j]], "%", sep = ""), size = 150, gravity = "south", color = "white")
-            img_used <- image_flip(img_used)
+            #img_used <- image_flip(img_used)
             rasterImage(img_used, xI, yI, (xI+offsetX), yI - offsetY, interpolate=FALSE)
             xI = xI + offsetX
             contador = contador + 1
